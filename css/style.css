@@ -268,3 +268,9 @@ a,a:hover{
 .footer-right ul li i:hover{
 	cursor: pointer;
 }
+.footer-right ul li a{
+	color: black;
+}
+.footer-right ul li a:hover{
+	cursor: pointer;
+}

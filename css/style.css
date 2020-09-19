@@ -227,6 +227,7 @@ a,a:hover{
 .footer-left{
 	width:50%;
 	float: left;
+	text-align: left;
 }
 .footer-left ul li{
 	display: inline-block;

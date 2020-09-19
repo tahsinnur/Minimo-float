@@ -1,0 +1,269 @@
+/*google font playfair display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+/*css for header*/
+.header{
+	width: 100%;
+	display:flow-root;
+}
+
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.menu-item ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 52px;
+
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu-item ul li a:hover{
+	color: black;
+}
+
+/*css for banner*/
+.banner{
+	width: 100%;
+	display:flow-root;
+}
+.post-content{
+	padding: 56px;
+}
+.category{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+.title{
+	color: #626262;
+	margin: 20px 0;
+
+}
+.des{
+	color: #626262;
+	margin-bottom: 36px;
+
+
+}
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+
+/*css for post gallery*/
+.postcontainer1{
+	width: 100%;
+	display: flow-root;
+}
+
+.gallery{
+	padding: 56px;
+ 
+}
+.post{
+	width: 100%;
+	float: left;
+}
+
+.post-left{
+	width: 50%;
+	float: left;
+}
+.post-right{
+	width: 50%;
+	float: left;
+}
+.post-1{
+	padding: 30px;
+}
+.post-2{
+	padding: 30px;
+}
+
+.postcontainer1 .category{
+	margin-top: 24px;
+}
+
+.postcontainer2 .category{
+	margin-top: 24px;
+}
+
+.postcontainer2{
+	width: 100%;
+	display: flow-root;
+}
+
+.post-3{
+	padding: 30px;
+}
+.post-4{
+	padding: 30px;
+}
+
+/*css for subscription form*/
+
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+	padding: 70px 0;
+
+}
+
+.subscription h1{
+
+	margin-bottom: 60px;
+
+}
+
+.subscription form input{
+	padding: 15px 0;
+    width: 380px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.subscription form input:focus{
+	outline: none;
+}
+.subscription form{
+	position: relative;
+}
+
+.subscription form i{
+	position: absolute;
+	top: 20px;
+    right: 383px;
+}
+
+/*css for post container 3*/
+
+.postcontainer3{
+	width: 100%;
+	display: flow-root;
+}
+
+.post-5{
+	padding: 30px;
+}
+.post-6{
+	padding: 30px;
+}
+
+/*css for load more button*/
+.loadmore-btn{
+	width: 100%;
+	display: flow-root;
+}
+.loadmore{
+	width: 100%;
+	text-align: center;
+}
+
+.loadmore button{
+	padding: 22px 40px;
+    border: none;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 18px;
+    color: #626262;
+}
+
+.loadmore button:hover{
+	cursor: pointer;
+}
+
+/*css for footer*/
+
+.footermain{
+	width: 100%;
+	display: flow-root;
+	margin-top: 80px;
+	background: #f0f0f0;
+
+}
+
+.footer1{
+	width: 100%;
+	height: 80px;
+	float: left;
+}
+.footer-left{
+	width:50%;
+	float: left;
+}
+.footer-left ul li{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 20px;
+
+}
+
+.footer-left ul{
+	margin-top: 25px;
+	margin-left: 63px; 
+}
+
+.footer-left ul li a{
+	color: black;
+}
+
+.footer-right{
+	width:50%;
+	float: right;
+	text-align: right;
+}
+.footer-right ul li{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+.footer-right ul{
+	margin-top: 25px;
+	margin-right: 63px; 
+}
+
+.footer-right ul li{
+	color: black;
+}
+
+.footer-right ul li i:hover{
+	cursor: pointer;
+}
